@@ -1,6 +1,9 @@
 name: Building recovery
 
-on:
+on:  workflow_dispatch
+env:
+  TYPE: build
+  TZ: Asia/Manila
 #  release:
 #    types: [published]
 #  push:
